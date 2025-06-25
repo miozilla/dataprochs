@@ -1,0 +1,1 @@
+gcloud dataproc clusters create mior-cluster --enable-component-gateway --region europe-west1 --zone europe-west1-d --master-machine-type e2-standard-2 --master-boot-disk-size 30 --num-workers 2 --worker-machine-type e2-standard-2 --worker-boot-disk-size 30 --image-version 2.2-debian12 --project <projectID>

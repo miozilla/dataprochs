@@ -1,0 +1,24 @@
+POST /v1/projects/qwiklabs-gcp-01-306e84b17381/regions/europe-west1/jobs:submit/
+{
+  "projectId": <projectId>,
+  "job": {
+    "placement": {
+      "clusterName": "mior-cluster"
+    },
+    "statusHistory": [],
+    "reference": {
+      "jobId": "job-bd4cc385",
+      "projectId": <projectId>
+    },
+    "sparkJob": {
+      "mainClass": "org.apache.spark.examples.SparkPi",
+      "properties": {},
+      "jarFileUris": [
+        "file:///usr/lib/spark/examples/jars/spark-examples.jar"
+      ],
+      "args": [
+        "1000"
+      ]
+    }
+  }
+}
