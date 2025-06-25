@@ -5,7 +5,7 @@ dataprochs : Dataproc Cluster # Apache # Hadoop # MapReduce # Spark # YARN # HDF
 ## Objective
 
 Create a Dataproc cluster in Google Cloud.
-Run Apache Spark job.
+Run Apache Spark job (estimates Pi value using Monte Carlo method).
 Modify number of workers in cluster.
 
 
